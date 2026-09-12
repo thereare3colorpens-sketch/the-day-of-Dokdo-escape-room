@@ -1,0 +1,25 @@
+ARCHIVE 1025 V19 QA
+
+검사 항목
+- JavaScript syntax: PASS (node --check)
+- Chromium 실제 브라우저 엔진 기능 테스트: PASS
+
+도전자 모드 전체 흐름
+- 학년도/학번 입력 → 사건 브리핑 → CASE 01 → CASE 02 → FINAL CASE → 10:25 → 엔딩: PASS
+- CASE 02 침입자 메모에 1905 숫자 미표시: PASS
+- CASE 02 도전자 입력 시 숫자/그림선 보조 없음: PASS
+- FINAL CASE '확인' 버튼 없음: PASS
+- FINAL CASE 도전자 디지털 시간 표시 숨김: PASS
+- Runtime page exception: 0
+
+입문자 모드 전체 흐름
+- 처음부터 엔딩까지: PASS
+- CASE 02 1905/디지털 보조 표시: PASS
+- FINAL CASE 조작 가능 장치 3개: PASS
+- FINAL CASE 숫자 시간 표시: PASS
+- 같은 일반 힌트 반복 클릭 시 보정 중복 없음: PASS (+30초 1회)
+- Runtime page exception: 0
+
+참고
+- 자동 테스트는 Chromium 1280x800 viewport에서 수행했습니다.
+- 실제 Galaxy Tab S7 FE 물리 기기 테스트는 별도 권장합니다.

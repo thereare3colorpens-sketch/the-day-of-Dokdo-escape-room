@@ -1,0 +1,18 @@
+ARCHIVE 1025 V15 CHANGELOG
+
+- 방 배경 이미지 품질을 1600×893 / WebP quality 94로 재구성
+- Galaxy Tab S7 FE 16:10 화면에서 핫스팟 정렬이 틀어지는 cover 방식 제거
+- 게임 캔버스 비율을 이미지와 동일하게 고정하고 외곽은 블러 배경으로 자연스럽게 처리
+- 닫힌 방/열린 방 전환을 문 위치 중심 clip-path reveal로 변경
+- 문 열림 시 먼지 파티클, 광원, 진동, 방별 효과음 추가
+- 오브젝트 터치 시 해당 위치 중심 카메라 포커스 효과 추가
+- 다음 방 이동을 현재 열린 방 배경 기반 시네마틱 전환으로 변경
+- HUD 현재 목표 가독성/글자 크기/버튼 크기 개선
+- 미발견 단서는 이름을 숨기고 '단서 1, 2, 3'으로 표시
+- 모달 본문 폭을 줄이고 텍스트/선택 버튼을 확대
+- CASE CLEAR 연출과 최종 엔딩 연출 강화
+- 엔딩 화면을 마지막 열린 방 위에 표시하고 CASE CLOSED 연출 추가
+- Vercel 배포용 vercel.json 추가
+- 역사 자료: 로컬 에셋 우선, HTTPS 배포 시 Wikimedia Commons 원본 fallback
+- file:// 실행 시 remote fallback 비활성화
+- BEGINNER / CHALLENGE 전체 자동 플레이 브라우저 테스트 완료, Runtime exception 0
